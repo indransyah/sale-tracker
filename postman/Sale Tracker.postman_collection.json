@@ -1,0 +1,149 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Sale Tracker",
+		"_postman_id": "1952755a-66c3-d829-aef5-6b36897702b9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saletracker.local/api/click",
+			"request": {
+				"url": "saletracker.local/api/click",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saletracker.local/api/click/:link",
+			"request": {
+				"url": "saletracker.local/api/click/target.com",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saletracker.local/api/sale",
+			"request": {
+				"url": "saletracker.local/api/sale",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "product",
+							"value": "Macbook",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saletracker.local/api/sale/:link",
+			"request": {
+				"url": "saletracker.local/api/sale/target.com",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saletracker.local/api/email",
+			"request": {
+				"url": "saletracker.local/api/email",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "myemail@target.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saletracker.local/api/email/:link",
+			"request": {
+				"url": "saletracker.local/api/email/target.com",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "link",
+							"value": "http://www.target.com/bla/bla/bla",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
